@@ -1,6 +1,8 @@
-pragma solidity ^0.8.0;
+// SPDX-License-Identifier: MIT
 
-contract Transactions {
+pragma solidity ^0.8.17;
+
+contract TransferTokens {
     event Transfer (address sender, address receiver, uint amount, uint256 timestamp);
 
     function publishTransaction(address payable receiver, uint amount) public {

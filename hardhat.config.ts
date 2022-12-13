@@ -6,7 +6,7 @@ const config: HardhatUserConfig = {
   networks:{
     bsc: {
       url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
-      accounts: ['090dcc59fd59375c21b37654c490604b5345f5a1e2ccc61341d9d66fec5b62b4']
+      accounts: ['60531f774e86d9e943a2e4e8027428dd0a53307439285cb108b33331d404368e']
     },
   }
 };

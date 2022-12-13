@@ -1,10 +1,10 @@
 const main = async () => {
-    const transactionFactory = await hre.ethers.getContractFactory('Transactions')
-    const transactionContract = await transactionFactory.deploy()
+    const transferFactory = await hre.ethers.getContractFactory('TransferTokens')
+    const transferContract = await transferFactory.deploy()
   
-    await transactionContract.deployed()
+    await transferContract.deployed()
   
-    console.log('Transactions deployed to:', transactionContract.address)
+    console.log('TransferToken deployed to:', transferContract.address)
   }
   
   ;(async () => {
